@@ -9,6 +9,16 @@ import base64
 app = Flask(__name__)
 api = Api(app)
 
+@app.route('/')
+def home():
+    return 'Hi I am Semblance, Your realistic AI personal assistant. Are you ready to begin our journey!'
+
+@app.route('/api', methods=['POST'])
+def api():
+    data = request.get_json()
+    response = requests.post('https://jsonplaceholder.typicode.com/posts', json=data)
+    return jsonify(response.json())
+
 
 class Session(Resource):
     def post(self):
