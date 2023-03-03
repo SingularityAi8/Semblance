@@ -1,5 +1,0 @@
-Frontend - React_native / Kotlin
-
-Backend - Python { Kivy || BeeWare } / Nodejs
-
-ML - GPT-3
