@@ -8,6 +8,7 @@ app = Flask(__name__)
 CORS(app)
 
 
+# Define a home route
 @app.route('/')
 def home():
     return 'Hi I am Semblance, Your realistic AI personal assistant. Are you ready to begin our journey!'
@@ -43,11 +44,6 @@ def generate_text(prompt, model, max_length):
     )
     message = response.choices[0].text.strip()
     return message
-
-# Define a home route
-@app.route("/")
-def home():
-    return "Welcome to the GPT-3 API!"
 
 # Define a route to generate text
 @app.route("/generate", methods=["POST"])
