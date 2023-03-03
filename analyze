@@ -1,0 +1,83 @@
+Analyzing Semblance...                                          
+
+   info • The imported package 'flutter_sound' isn't a dependency of the importing package • client/lib/audio_recorder.dart:1:8 • depend_on_referenced_packages
+  error • Target of URI doesn't exist: 'package:flutter_sound/flutter_sound.dart' • client/lib/audio_recorder.dart:1:8 • uri_does_not_exist
+  error • The function 'FlutterSoundRecorder' isn't defined • client/lib/audio_recorder.dart:3:23 • undefined_function
+  error • Undefined class 'Directory' • client/lib/audio_recorder.dart:4:7 • undefined_class
+  error • The await expression can only be used in an async function • client/lib/audio_recorder.dart:4:32 • await_in_wrong_context
+  error • The function 'getApplicationDocumentsDirectory' isn't defined • client/lib/audio_recorder.dart:4:38 • undefined_function
+  error • Undefined name 'await' in function body not marked with 'async' • client/lib/audio_recorder.dart:7:1 • undefined_identifier_await
+  error • Functions must have an explicit list of parameters • client/lib/audio_recorder.dart:7:7 • missing_function_parameters
+  error • The name 'soundRecorder' is already defined • client/lib/audio_recorder.dart:7:7 • duplicate_definition
+  error • A function body must be provided • client/lib/audio_recorder.dart:7:20 • missing_function_body
+  error • Expected a method, getter, setter or operator declaration • client/lib/audio_recorder.dart:7:20 • expected_executable
+  error • A function body must be provided • client/lib/audio_recorder.dart:7:39 • missing_function_body
+  error • Undefined name 'await' in function body not marked with 'async' • client/lib/audio_recorder.dart:8:1 • undefined_identifier_await
+  error • Functions must have an explicit list of parameters • client/lib/audio_recorder.dart:8:7 • missing_function_parameters
+  error • The name 'soundRecorder' is already defined • client/lib/audio_recorder.dart:8:7 • duplicate_definition
+  error • A function body must be provided • client/lib/audio_recorder.dart:8:20 • missing_function_body
+  error • Expected a method, getter, setter or operator declaration • client/lib/audio_recorder.dart:8:20 • expected_executable
+   info • Using a colon as a separator before a default value is deprecated and will not be supported in language version 3.0 and later • client/lib/audio_recorder.dart:8:41 • deprecated_colon_for_default_value
+  error • Named parameters must be enclosed in curly braces ('{' and '}') • client/lib/audio_recorder.dart:8:41 • named_parameter_outside_group
+  error • The default value of an optional parameter must be constant • client/lib/audio_recorder.dart:8:43 • non_constant_default_value
+  error • A function body must be provided • client/lib/audio_recorder.dart:8:52 • missing_function_body
+  error • Undefined name 'await' in function body not marked with 'async' • client/lib/audio_recorder.dart:11:1 • undefined_identifier_await
+  error • Functions must have an explicit list of parameters • client/lib/audio_recorder.dart:11:7 • missing_function_parameters
+  error • The name 'soundRecorder' is already defined • client/lib/audio_recorder.dart:11:7 • duplicate_definition
+  error • A function body must be provided • client/lib/audio_recorder.dart:11:20 • missing_function_body
+  error • Expected a method, getter, setter or operator declaration • client/lib/audio_recorder.dart:11:20 • expected_executable
+  error • A function body must be provided • client/lib/audio_recorder.dart:11:35 • missing_function_body
+  error • Undefined name 'await' in function body not marked with 'async' • client/lib/audio_recorder.dart:12:1 • undefined_identifier_await
+  error • Functions must have an explicit list of parameters • client/lib/audio_recorder.dart:12:7 • missing_function_parameters
+  error • The name 'soundRecorder' is already defined • client/lib/audio_recorder.dart:12:7 • duplicate_definition
+  error • A function body must be provided • client/lib/audio_recorder.dart:12:20 • missing_function_body
+  error • Expected a method, getter, setter or operator declaration • client/lib/audio_recorder.dart:12:20 • expected_executable
+  error • A function body must be provided • client/lib/audio_recorder.dart:12:40 • missing_function_body
+  error • Functions must have an explicit list of parameters • client/lib/audio_transcriber.dart:4:1 • missing_function_parameters
+  error • The name 'request' is already defined • client/lib/audio_transcriber.dart:4:1 • duplicate_definition
+  error • A function body must be provided • client/lib/audio_transcriber.dart:4:8 • missing_function_body
+  error • Expected a method, getter, setter or operator declaration • client/lib/audio_transcriber.dart:4:8 • expected_executable
+  error • Functions must have an explicit list of parameters • client/lib/audio_transcriber.dart:4:9 • missing_function_parameters
+  error • A function body must be provided • client/lib/audio_transcriber.dart:4:14 • missing_function_body
+  error • Expected a method, getter, setter or operator declaration • client/lib/audio_transcriber.dart:4:14 • expected_executable
+  error • Undefined name 'await' in function body not marked with 'async' • client/lib/audio_transcriber.dart:4:19 • undefined_identifier_await
+  error • Expected to find ')' • client/lib/audio_transcriber.dart:4:29 • expected_token
+  error • A function body must be provided • client/lib/audio_transcriber.dart:4:77 • missing_function_body
+  error • The await expression can only be used in an async function • client/lib/audio_transcriber.dart:6:18 • await_in_wrong_context
+  error • The await expression can only be used in an async function • client/lib/audio_transcriber.dart:7:23 • await_in_wrong_context
+   info • Constructors for public widgets should have a named 'key' parameter • client/lib/baseapp.dart:3:7 • use_key_in_widget_constructors
+   info • Constructors for public widgets should have a named 'key' parameter • client/lib/chatapp.dart:5:7 • use_key_in_widget_constructors
+   info • The value of the local variable 'response' isn't used • client/lib/chatapp.dart:31:19 • unused_local_variable
+   info • Use 'const' for final variables initialized to a constant value • client/lib/gpt3_text_sender.dart:1:1 • prefer_const_declarations
+  error • Undefined name 'transcription' • client/lib/gpt3_text_sender.dart:2:33 • undefined_identifier
+  error • The await expression can only be used in an async function • client/lib/gpt3_text_sender.dart:4:18 • await_in_wrong_context
+  error • Undefined name 'http' • client/lib/gpt3_text_sender.dart:4:24 • undefined_identifier
+  error • Undefined name 'json' • client/lib/gpt3_text_sender.dart:10:27 • undefined_identifier
+   info • Constructors for public widgets should have a named 'key' parameter • client/lib/main.dart:13:7 • use_key_in_widget_constructors
+   info • Invalid use of a private type in a public API • client/lib/main.dart:15:3 • library_private_types_in_public_api
+   info • The imported package 'flutter_tts' isn't a dependency of the importing package • client/lib/response_speaker.dart:1:8 • depend_on_referenced_packages
+  error • Target of URI doesn't exist: 'package:flutter_tts/flutter_tts.dart' • client/lib/response_speaker.dart:1:8 • uri_does_not_exist
+  error • The function 'FlutterTts' isn't defined • client/lib/response_speaker.dart:3:20 • undefined_function
+  error • Undefined name 'await' in function body not marked with 'async' • client/lib/response_speaker.dart:4:1 • undefined_identifier_await
+  error • Functions must have an explicit list of parameters • client/lib/response_speaker.dart:4:7 • missing_function_parameters
+  error • The name 'flutterTts' is already defined • client/lib/response_speaker.dart:4:7 • duplicate_definition
+  error • A function body must be provided • client/lib/response_speaker.dart:4:17 • missing_function_body
+  error • Expected a method, getter, setter or operator declaration • client/lib/response_speaker.dart:4:17 • expected_executable
+  error • Expected an identifier • client/lib/response_speaker.dart:4:30 • missing_identifier
+  error • A function body must be provided • client/lib/response_speaker.dart:4:38 • missing_function_body
+  error • Undefined name 'await' in function body not marked with 'async' • client/lib/response_speaker.dart:5:1 • undefined_identifier_await
+  error • Functions must have an explicit list of parameters • client/lib/response_speaker.dart:5:7 • missing_function_parameters
+  error • The name 'flutterTts' is already defined • client/lib/response_speaker.dart:5:7 • duplicate_definition
+  error • A function body must be provided • client/lib/response_speaker.dart:5:17 • missing_function_body
+  error • Expected a method, getter, setter or operator declaration • client/lib/response_speaker.dart:5:17 • expected_executable
+  error • A function body must be provided • client/lib/response_speaker.dart:5:42 • missing_function_body
+   info • Constructors for public widgets should have a named 'key' parameter • client/lib/vocalapp.dart:7:7 • use_key_in_widget_constructors
+   info • Invalid use of a private type in a public API • client/lib/vocalapp.dart:9:3 • library_private_types_in_public_api
+   info • The value of the local variable 'response' isn't used • client/lib/vocalapp.dart:21:19 • unused_local_variable
+   info • The 'child' argument should be last in widget constructor invocations • client/lib/vocalapp.dart:76:17 • sort_child_properties_last
+   info • Don't invoke 'print' in production code • client/lib/vocalapp.dart:100:28 • avoid_print
+   info • Don't invoke 'print' in production code • client/lib/vocalapp.dart:101:27 • avoid_print
+   info • Statements in an if should be enclosed in a block • client/lib/vocalapp.dart:104:9 • curly_braces_in_flow_control_structures
+warning • The asset file 'assets/lost.jpg' doesn't exist • pubspec.yaml:67:7 • asset_does_not_exist
+warning • The asset file 'assets/space.jpg' doesn't exist • pubspec.yaml:68:7 • asset_does_not_exist
+
