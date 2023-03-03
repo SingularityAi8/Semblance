@@ -5,9 +5,10 @@ import json
 from datetime import datetime
 import wave
 import base64
+from flask_cors import CORS
 
 app = Flask(__name__)
-api = Api(app)
+CORS(app)
 
 @app.route('/')
 def home():
